@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleTableStorageHandler", "SampleStorageHandler\SampleTableStorageHandler.csproj", "{113197C9-A9E1-4922-92B5-97D2A6EBB06D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{C45F6D89-8CD1-475C-8FC8-27D90E391EA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{113197C9-A9E1-4922-92B5-97D2A6EBB06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{113197C9-A9E1-4922-92B5-97D2A6EBB06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{113197C9-A9E1-4922-92B5-97D2A6EBB06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{113197C9-A9E1-4922-92B5-97D2A6EBB06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C45F6D89-8CD1-475C-8FC8-27D90E391EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45F6D89-8CD1-475C-8FC8-27D90E391EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45F6D89-8CD1-475C-8FC8-27D90E391EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45F6D89-8CD1-475C-8FC8-27D90E391EA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {36D5416F-DEF5-418A-A878-3A9B5BFE20F0}
+		SolutionGuid = {F0335CC0-5D27-45E1-828E-40A2DD7544DB}
 	EndGlobalSection
 EndGlobal
