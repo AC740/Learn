@@ -2,26 +2,26 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "storageAccounts_andrewblobstoragetest_name": {
-            "defaultValue": "andrewblobstoragetest",
-            "type": "String"
+        "storageAccounts_andrewblobstorage_name": {
+            "defaultValue": "andrewblobstorage",
+            "type": "string"
         },
-        "storageAccounts_andrewtablestoragetest_name": {
-            "defaultValue": "andrewtablestoragetest",
-            "type": "String"
+        "storageAccounts_andrewtablestorage_name": {
+            "defaultValue": "andrewtablestorage",
+            "type": "string"
         }
     },
     "variables": {},
     "resources": [
         {
-            "comments": "Generalized from resource: '/subscriptions/8bd4b226-317a-4920-8b92-4263326776ed/resourceGroups/Andrew-Test-Grp/providers/Microsoft.Storage/storageAccounts/andrewblobstoragetest'.",
+            "comments": "Generalized from resource: '/subscriptions/8bd4b226-317a-4920-8b92-4263326776ed/resourceGroups/andrew-test-grp-copy/providers/Microsoft.Storage/storageAccounts/andrewblobstorage'.",
             "type": "Microsoft.Storage/storageAccounts",
             "sku": {
                 "name": "Standard_RAGRS",
                 "tier": "Standard"
             },
             "kind": "Storage",
-            "name": "[parameters('storageAccounts_andrewblobstoragetest_name')]",
+            "name": "[parameters('storageAccounts_andrewblobstorage_name')]",
             "apiVersion": "2017-10-01",
             "location": "eastus",
             "tags": {},
@@ -49,14 +49,14 @@
             "dependsOn": []
         },
         {
-            "comments": "Generalized from resource: '/subscriptions/8bd4b226-317a-4920-8b92-4263326776ed/resourceGroups/Andrew-Test-Grp/providers/Microsoft.Storage/storageAccounts/andrewtablestoragetest'.",
+            "comments": "Generalized from resource: '/subscriptions/8bd4b226-317a-4920-8b92-4263326776ed/resourceGroups/andrew-test-grp-copy/providers/Microsoft.Storage/storageAccounts/andrewtablestorage'.",
             "type": "Microsoft.Storage/storageAccounts",
             "sku": {
                 "name": "Standard_RAGRS",
                 "tier": "Standard"
             },
             "kind": "Storage",
-            "name": "[parameters('storageAccounts_andrewtablestoragetest_name')]",
+            "name": "[parameters('storageAccounts_andrewtablestorage_name')]",
             "apiVersion": "2017-10-01",
             "location": "eastus",
             "tags": {},

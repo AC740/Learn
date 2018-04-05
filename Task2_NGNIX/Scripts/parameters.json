@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_ngnix1_name": {
+            "value": null
+        },
+        "virtualMachines_ngnix2_name": {
+            "value": null
+        },
+        "networkInterfaces_ngnix1497_name": {
+            "value": null
+        },
+        "networkInterfaces_ngnix2541_name": {
+            "value": null
+        },
+        "publicIPAddresses_ngnix1_ip_name": {
+            "value": null
+        },
+        "publicIPAddresses_ngnix2_ip_name": {
+            "value": null
+        },
+        "availabilitySets_availabilityset_name": {
+            "value": null
+        },
+        "networkSecurityGroups_ngnix1_nsg_name": {
+            "value": null
+        },
+        "virtualNetworks_Andrew_NGNIX_grp_vnet_name": {
+            "value": null
+        },
+        "subnets_default_name": {
+            "value": null
+        },
+        "securityRules_default_allow_ssh_name": {
+            "value": null
+        },
+        "virtualMachines_ngnix1_id": {
+            "value": null
+        },
+        "virtualMachines_ngnix2_id": {
+            "value": null
+        }
+    }
+}

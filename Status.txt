@@ -9,23 +9,24 @@ updated readme file. NM is looking for your ability to document & walk through t
 
 
 Scenarios:
-1. 
+1. (Done)
 Create a script that builds a load balanced IIS environment using Azure Resource manager templates. 
 Use common best practices & be ready with explanation. (Use availability set, load balancer)
 
 2. 
+(not done)
 Create a script that builds a load balanced NGNIX environment using Azure Resource manager templates. 
 Use best practices & be ready with explanation.
 
 3. 
-Create a script using Azure CLI or PowerShell and ARM templates for the structure of a proper ARM Template Deployment via the command line
+(Done) Create a script using Azure CLI or PowerShell and ARM templates for the structure of a proper ARM Template Deployment via the command line
 
 4. 
 Create an Azure Policy to limit resource creation for specific resource types, enforce a specific group of tags, and limit location where resources can be deployed.
 
 5. 
-Using your preferred programming language build basic web application and deploy to Azure App Services. 
-Be ready to discuss the best practices.
+(Done) Using your preferred programming language build basic web application and deploy to Azure App Services. 
+(Done) Be ready to discuss the best practices.
 
 6. 
 (Done) Create a code snippet and deploy it to an Azure Function that can be triggered via a schedule
